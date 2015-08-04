@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 40px 0 0 0;
+    font-size: 12px;
+    font-family: cursive;
+    background: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 40px;
+    background: url(images/header_bg.png);
+    position: absolute;
+    top: 0;
+}
+#header .header_main{
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+}
+#header .header_main h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 20px;
+    color: #666;
+    line-height: 40px;
+    float: left;
+}
+#header .header_search{
+    padding: 6px 0 0 0;
+    float: left;
+}
+#header .header_search .search{
+    width: 300px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #4c4c4c;
+    color: #666;
+}
+#header .header_button{
+    float: left;
+    padding: 5px;
+}
+#header .header_member{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+#header .header_member a{
+    text-decoration: none;
+    color: #9fda58;
+}
+#reg, #login, #question{
+    padding: 15px;
+}
+#reg p .star, #login p .star, #question p .star{
+    color: red;
+}
+#reg ol, #login ol, #question ol{
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: red;
+}
+#reg ol li, #login ol li, #question ol li{
+    height: 20px;
+}
+#reg p label, #login p label{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+#question p label{
+	display: inline-block;
+}
+#reg p input.text, #login p input.text {
+    margin: 0 5px;
+    width: 40%;
+}
+#question p input.text{
+	width: 500px;
+}
+#reg p label[for=male], #reg p label[for=female]{
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    width: 15%;
+}
+#reg .text, #login .text, #question .text{
+    border-radius: 4px;
+    background: #dddddd;
+    height: 25px;
+    text-indent: 3px;
+    color: darkslateblue;
+}
+#login p label[for=expires]{
+    display: inline;
+	font-size: 12px;
+    width: 50%;
+    text-align: right;
+}
+#expires{
+	margin: 0 0 0 150px;
+	position: relative;
+	top: 2px;
+}
+#loading{
+	text-align: center;
+	font-size: 15px;
+	text-indent: 20px;
+	background: url(images/loading.gif) no-repeat 30px center;
+}
+
+#error{
+	text-align: center;
+	font-size: 15px;
+	text-indent: 20px;
+	background: url(images/error.png) no-repeat 30px center;
+}
+#main{
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px 0 0 0;
+}
+#main .main_left{
+	width: 600px;
+	float: left;
+}
+#main .main_right{
+	width: 180px;
+	float: right;
+}
+#tabs {
+
+}
+.ui-tabs-panel{
+	height: 120px;
+}
+#accordion{
+
+}
+
